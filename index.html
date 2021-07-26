@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title></title>
 </head>
@@ -17,11 +18,122 @@
         <img src="assets/logo.png" alt="logo" class="navbar__logo">
       </div>
       <div class="navbar__nav__items">
-        <button class="nav__item">Order Food</button>
+        <button class="nav__item button__primary">Order Food</button>
       </div>
 
     </nav>
   </header>
+  <main class="container">
+    <!--Hero Section-->
+
+    <section class="hero__container">
+      <div class="hero__image__container">
+        <img src="assets/hero.jpg" alt="hero image" class="hero__image">
+        <div class="hero__underlay">
+          <img src="assets/svg/heroShape.svg" alt="hero image background" class="heroShape__image">
+          <img src="assets/svg/herobgpattern.svg" alt="hero image pattern" class="heropattern__image">
+        </div>
+
+      </div>
+      <div class="hero__description">
+        <h1 class="hero__test">
+          Order food from favourite restaurants near you.
+        </h1>
+        <button class="button__primary">Order Now</button>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <!--Explore menu-->
+    <section class="explore__menu__container">
+      <h1 class="explore__menu__text">Explore Our Menu</h1>
+      <div class="explore__menu__gradient__bg">
+
+      </div>
+      <div class="explore__menu__lists">
+        <!--Burger-->
+        <div class="food__card">
+          <div class="food__card__image__container">
+            <img src="assets/burger.jpg" alt="burger" class="food__image">
+          </div>
+          <div class="food__card__description">
+            <h3 class="food__title">Burger</h3>
+            <p>Burger King, Mcdonalds, Burger Place
+              <span style="color: #D83A56;">+3</span>
+            </p>
+          </div>
+        </div>
+        <!--Pizza-->
+        <div class="food__card" id="pizza__card">
+          <div class="food__card__image__container">
+            <img src="assets/pizza.jpg" alt="Pizza" class="food__image">
+          </div>
+          <div class="food__card__description">
+            <h3 class="food__title">Pizza</h3>
+            <p>Pizza Hut, Domino's Pizza
+              <span style="color: #D83A56;">+3</span>
+            </p>
+          </div>
+        </div>
+        <!--Ice Cream-->
+        <div class="food__card">
+          <div class="food__card__image__container">
+            <img src="assets/iceCream.jpg" alt="Ice Cream" class="food__image">
+          </div>
+          <div class="food__card__description">
+            <h3 class="food__title">Ice Creams</h3>
+            <p>Baskin Robins, Ibaco
+              <span style="color: #D83A56;">+3</span>
+            </p>
+          </div>
+        </div>
+        </div>
+        <!--view more-->
+        <div class="view__container">
+          <h4 class="view">View More</h4>
+
+        </div>
+
+    </section>
+
+
+
+    <!--updates section-->
+    <section class="updates__section__container">
+      <div class="updates__container">
+        <h1 class="updates__label">Stay Updated</h1>
+        <div class="updates__input">
+          <input class="updates__email" type="email" name="email" placeholder="email@email.com">
+          <button class="updates__button" type="button" name="button">Get Updates</button>
+        </div>
+      </div>
+    </section>
+
+    <!--quote section-->
+    <section class="quote__section">
+      <div class="quote__section__image">
+        <img src="assets/quote_image.jpg" class="quote__image">
+      </div>
+      <div class="quote__section__quote">
+        <h3>When a man's stomach is full it makes no difference whether he is rich or poor.</h3>
+      </div>
+    </section>
+
+
+
+  </main>
+  <footer class="footer__section">
+    <img src="assets/logo.png" class="logo__footer">
+    <div class="footer_label">
+      <p>Pricing</p>
+      <p>Terms and condition</p>
+      <p>Partnership</p>
+      <p>Career</p>
+      <p>Contact</p>
+    </div>
+  </footer>
+
 
 </body>
 
